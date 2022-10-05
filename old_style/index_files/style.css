@@ -1,0 +1,200 @@
+#content {
+	margin: 0 20px;
+	padding: 0 20px;
+}
+
+div.wrapper {
+	height: 100px;
+	background-color: #999;
+}
+/*
+*	main_wrapper
+*/
+.main_wrapper {
+	text-align: center;
+	margin: 25px 0 0 0;
+}
+
+/*
+*	@media screen styles
+*/
+
+@media (min-width: 320px) {
+  h1 {
+      font-size: 14px;
+    }
+  h3 {
+  	font-size: 12px;
+  }
+  p {
+  	font-size: 12px;
+  }
+  .main-img {
+  	max-width: 100%; 
+  }
+  .main_wrapper p {
+  	font-size: 12px;
+  }
+  address.contacts {
+  	font-size: 12px;
+  }
+  .phone-number a {
+  	font-size: 20px;
+	font-weight: bolder;
+  }
+  .mastfoot {
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	text-align: center;
+	padding: 10px;
+	height: 70px;
+	top: 0;
+	line-height: 70px;
+  }
+  .main_wrapper {
+  text-align: center;
+  margin: 100px 0 0 0;
+  }
+
+}
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 18px;
+    }
+  h3 {
+  	font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  h1 {
+    font-size: 24px;
+    }
+  h3 {
+  	font-size: 18px;
+  }
+  .phone-number a {
+  	font-size: 40px;
+	font-weight: bolder;
+  }
+  .mastfoot {
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	text-align: center;
+	padding: 20px;
+	height: 150px;
+	bottom: 0;
+	top: unset;
+  }
+  .main_wrapper {
+  text-align: center;
+  margin: 25px 0 0 0;
+}
+
+}
+
+@media (min-width: 992px) {
+	h1 {
+		font-size: 36px;
+	}
+	h3 {}
+}
+
+/*
+*
+*/
+
+
+  h1 {
+  	color: #000;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  }
+}
+
+
+.phone_block {
+	text-align: center;
+
+}
+.call_button {
+	height: 30px;
+	margin: 0 20px;
+	max-width: 100%; 
+}
+.phone-number a {
+	color: green;
+	text-decoration: none;
+	
+}
+
+/*
+**  vikna calculator
+*/
+.demo-vikna {
+  background-color: white;
+  height: 370px;
+    text-align: center;
+}
+.demo-vikna form {
+  margin: 20px 0 0 0 ;
+}
+.demo-cost {
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+.products {
+	max-width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 50px 0 0 0;
+}
+.plastics {
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 50px 0 0 0 ;
+}
+/**/
+.profiles {
+  background-color: white;
+  width: 270px;
+  text-align: center;
+}
+.profiles h4 {
+  height: 40px;
+}
+.profiles p {
+  
+}
+.profiles img {
+  height: 160px;
+}
+.profiles ul {
+  text-align: left;
+}
+.profiles dt {
+  font-family: "Exo 2",sans-serif;
+  font-size: 10px;
+  display: inline-block;
+  min-width: 158px;
+}
+.profiles dd {
+  font-weight: bold;
+  font-family: "Exo 2",sans-serif;
+  font-size: 10px;
+  display: inline;
+}
+.article_body {
+	padding: 50px 0 200px 0;
+}
